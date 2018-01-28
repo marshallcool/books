@@ -1,0 +1,27 @@
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+.books-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  flex-wrap: wrap;
+
+  &__item {
+    margin-bottom: 25px;
+
+    &__title {
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    &__author {
+
+    }
+  }
+}
